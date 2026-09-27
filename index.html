@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmer AI Agent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div>
+        <h1>Ahmer AI Agent 🤖</h1>
+        <p>Ask me a question or give me a task.</p>
+      </div>
+      <span class="status">● Online</span>
+    </header>
+
+    <section id="chat" class="chat">
+      <div class="message agent">
+        <b>Ahmer AI Agent</b>
+        <p>Hello! Give me a task and I'll help you plan it step by step.</p>
+      </div>
+    </section>
+
+    <div class="suggestions">
+      <button>Explain Agentic AI</button>
+      <button>Make a study plan</button>
+      <button>Write C++ code</button>
+    </div>
+
+    <form id="form">
+      <input id="input" autocomplete="off" placeholder="Type your task..." required>
+      <button type="submit">Send ➤</button>
+    </form>
+    <small>Powered by your configured AI API • Never put an API key in this frontend.</small>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
